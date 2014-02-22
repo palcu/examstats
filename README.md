@@ -17,7 +17,7 @@ Hackers:
 
 - indexăm un județ mare și Bucureștiul
 - precalculăm statistici
-- bază de date pe Amazon EC2
+- stocăm datele în fișiere locale
 - frontendul în Flask
 - charts în [D3.js](http://d3js.org/)
 
