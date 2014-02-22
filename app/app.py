@@ -1,9 +1,12 @@
 import os
 import sqlite3
 
-from flask import Flask, g
+from flask import Flask, g, render_template
+from flask.ext.bootstrap import Bootstrap
 
 app = Flask(__name__)
+Bootstrap(app)
+
 app.config.from_object(__name__)
 
 app.config.update(dict(
@@ -49,7 +52,7 @@ def init_db():
 def index():
     init_db()
     db = get_db()
-    return "Hello World!"
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
