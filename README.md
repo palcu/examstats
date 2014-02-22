@@ -44,3 +44,7 @@ Ce statistici afișăm prima dată:
 ## Milestone 4
 
 - corelări cu date de la facultăți
+
+## Milestone 5
+
+- antrenăm rețele neuronale pe date să putem „ghici” notele pe care le poate lua un elev
