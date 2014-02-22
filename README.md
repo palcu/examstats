@@ -10,8 +10,8 @@ Hackers:
 
 Împărțim proiectul în:
 
-1. Achiziții de date - Python Scrapper & MySQL
-2. Frontend - Punem datele din baza de date cu Flask într-o pagină și facem o pagină de prezentare a județului
+1. Achiziții de date - Python scrapper & parser
+2. Frontend - Din CSVuri, cu Flask, aruncăm datele în D3.js
 
 ## Milestone 1
 
