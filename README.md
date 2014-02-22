@@ -4,8 +4,8 @@ Vrem să indexăm datele de pe http://admitere.edu.ro/ și http://bacalaureat.ed
 
 Hackers:
 
+- @andreibordeianu
 - @dranov
-- @lordfursec
 - @palcu
 
 Împărțim proiectul în:
