@@ -11,13 +11,19 @@ Hackers:
 Împărțim proiectul în:
 
 1. Achiziții de date - Python scrapper & parser
-2. Frontend - Din CSVuri, cu Flask, aruncăm datele în D3.js
+2. Frontend - Din SQLite, cu Flask, aruncăm datele în D3.js
+
+## Install
+
+```
+pip install -r requirements.txt
+```
 
 ## Milestone 1
 
 - indexăm un județ mare și Bucureștiul
 - precalculăm statistici
-- stocăm datele în fișiere locale
+- stocăm datele în SQLite
 - frontendul în Flask
 - charts în [D3.js](http://d3js.org/)
 
