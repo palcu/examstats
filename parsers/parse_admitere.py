@@ -1,5 +1,7 @@
 #! /usr/bin/python
 
+from __future__ import print_function
+
 from bs4 import BeautifulSoup
 import os
 import os.path
@@ -7,6 +9,7 @@ import sys
 import glob
 import json
 import csv
+
 
 mapping = {
                 1: 'name',
@@ -26,12 +29,12 @@ mapping = {
         }
 
 
-field_delimiter = '\t'
+field_delimiter = ',,,,'
 
 if __name__ == '__main__':
 
     if len(sys.argv) != 2:
-        print 'no file wildcard specified'
+        print('no file wildcard specified')
         exit(1)
 
     file_wildcard = sys.argv[1]
@@ -52,9 +55,17 @@ if __name__ == '__main__':
 
             students.append(student)
 
+    for (k, v) in mapping.iteritems():
+        if k == len(mapping.items()):
+            print(v, end='\n')
+        else:
+            print(v + field_delimiter, end='')
+
 
     for student in students:
         for (k, v) in mapping.iteritems():
-            print student[v], field_delimiter,
-        print
+            if k == len(mapping.items()):
+                print(student[v], end='\n')
+            else:
+                print(student[v] + field_delimiter, end='')
 
