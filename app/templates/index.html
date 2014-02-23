@@ -2,6 +2,7 @@
 {% block title %}Statistici examene{% endblock %}
 
 {% block navbar %}
+
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,58 +41,116 @@
       </div>
     </div>
     <div class="container">
-      <ul class="nav nav-tabs">
+      <!-- <ul class="nav nav-tabs">
         <li class="active"><a href="#">Admitere</a></li>
         <li><a href="#">Bacalaureat</a></li>
+      </ul> -->
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#admitere" data-toggle="tab">Admitere</a></li>
+        <li><a href="#bacalaureat" data-toggle="tab">Bacalaureat</a></li>
       </ul>
-      <div class="row">
-        <div class="col-md-6" align="center">
-          <h2>Media pe materii</h2>
-          <!-- Grafic! -->
+      <div class="tab-content">
+        <div class="tab-pane active fade in" id="admitere">
+          <div class="row">
+            <div class="col-md-6" align="center">
+              <h2>Media pe materii</h2>
+              <!-- Grafic! -->
+            </div>
+            <div class="col-md-6" align="center">
+              <h2>Procent alegere specializări</h2>
+              <!-- Grafic! -->
+            </div>
+          </div>
+          <p align="center">Aici tragem cateva concluzii.</p>
+          <div class="row">
+            <div class="col-md-12" align="center">
+              <h2>Topul liceelor după ultima medie de admitere</h2>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <span class="badge">10</span>
+                    Primul
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">9.98</span>
+                    Al doilea
+                  </li>
+                  <li class="list-group-item">
+                    <span class="badge">9.98</span>
+                    Al treilea
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <p align="center">Aici tragem cateva concluzii.</p>
+          <div class="row">
+            <div class="col-md-12" align="center">
+              <h2>Cele mai seminificative creșteri</h2>
+
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Table heading</th>
+            <th>Table heading</th>
+            <th>Table heading</th>
+            <th>Table heading</th>
+            <th>Table heading</th>
+            <th>Table heading</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+          </tr>
+        </tbody>
+      </table>
+    </div><!-- /.table-responsive -->
+  
+            </div>
+          </div>
+          <p align="center">Aici tragem cateva concluzii.</p>
+          <div class="row">
+            <div class="col-md-6" align="center">
+              <h2>Medii tip clase</h2>
+              <!-- Grafic! -->
+            </div>
+            <div class="col-md-6" align="center">
+              <h2>Procent alegere specializări</h2>
+              <!-- Grafic! -->
+            </div>
+          </div>
+          <p align="center">Aici tragem cateva concluzii.</p>
         </div>
-        <div class="col-md-6" align="center">
-          <h2>Procent alegere specializări</h2>
-          <!-- Grafic! -->
+
+        <div class="tab-pane fade" id="bacalaureat">
+          <p align="center">Aici tragem cateva concluzii.</p>
         </div>
       </div>
-      <p align="center">Aici tragem cateva concluzii.</p>
-      <div class="row">
-        <div class="col-md-12" align="center">
-          <h2>Topul liceelor după ultima medie de admitere</h2>
-            <ul class="list-group">
-              <li class="list-group-item">
-                <span class="badge">10</span>
-                Primul
-              </li>
-              <li class="list-group-item">
-                <span class="badge">9.98</span>
-                Al doilea
-              </li>
-              <li class="list-group-item">
-                <span class="badge">9.98</span>
-                Al treilea
-              </li>
-            </ul>
-        </div>
-      </div>
-      <p align="center">Aici tragem cateva concluzii.</p>
-      <div class="row">
-        <div class="col-md-12" align="center">
-          <h2>Cele mai seminificative creșteri</h2>
-          <!-- Tabel! -->
-        </div>
-      </div>
-      <p align="center">Aici tragem cateva concluzii.</p>
-      <div class="row">
-        <div class="col-md-6" align="center">
-          <h2>Medii tip clase</h2>
-          <!-- Grafic! -->
-        </div>
-        <div class="col-md-6" align="center">
-          <h2>Procent alegere specializări</h2>
-          <!-- Grafic! -->
-        </div>
-      </div>
-      <p align="center">Aici tragem cateva concluzii.</p>
+
     </div>
 {% endblock %}
