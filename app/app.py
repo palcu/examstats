@@ -54,6 +54,10 @@ def index():
     db = get_db()
     return render_template('index.html')
 
+@app.route('/despre')
+def despre():
+    return render_template('despre.html')
+
 
 if __name__ == '__main__':
     app.run()
