@@ -50,6 +50,7 @@ Ce statistici afișăm prima dată:
 ## Milestone 4
 
 - corelări cu date de la facultăți
+- fete vs băieți (putem să folosim faptul că majoritatea numelor de fete se termină in "a")
 
 ## Milestone 5
 

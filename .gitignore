@@ -37,3 +37,8 @@ nosetests.xml
 
 # Flask
 app/database.db
+
+# George
+*~
+*.swp
+*.html
