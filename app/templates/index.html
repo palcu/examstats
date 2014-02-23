@@ -18,8 +18,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Acasă</a></li>
-        <li><a href="#">Despre</a></li>
+        <li class="active"><a href="/">Acasă</a></li>
+        <li><a href="/despre">Despre</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Orașe <b class="caret"></b></a>
           <ul class="dropdown-menu">
@@ -35,6 +35,50 @@
 
 {% block content %}
     <div class="jumbotron">
-        <h1>Statistici examene.</h1>
+      <div class="container">
+        <h1>București</h1>
+      </div>
+    </div>
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Admitere</a></li>
+        <li><a href="#">Bacalaureat</a></li>
+      </ul>
+      <div class="row">
+        <div class="col-md-6" align="center">
+          <h2>Media pe materii</h2>
+          <!-- Grafic! -->
+        </div>
+        <div class="col-md-6" align="center">
+          <h2>Procent alegere specializări</h2>
+          <!-- Grafic! -->
+        </div>
+      </div>
+      <p align="center">Aici tragem cateva concluzii.</p>
+      <div class="row">
+        <div class="col-md-12" align="center">
+          <h2>Topul liceelor</h2>
+          <!-- Lista! -->
+        </div>
+      </div>
+      <p align="center">Aici tragem cateva concluzii.</p>
+      <div class="row">
+        <div class="col-md-12" align="center">
+          <h2>Cele mai seminificative creșteri</h2>
+          <!-- Tabel! -->
+        </div>
+      </div>
+      <p align="center">Aici tragem cateva concluzii.</p>
+      <div class="row">
+        <div class="col-md-6" align="center">
+          <h2>Medii tip clase</h2>
+          <!-- Grafic! -->
+        </div>
+        <div class="col-md-6" align="center">
+          <h2>Procent alegere specializări</h2>
+          <!-- Grafic! -->
+        </div>
+      </div>
+      <p align="center">Aici tragem cateva concluzii.</p>
     </div>
 {% endblock %}
